@@ -12,7 +12,7 @@ export function EcommerceCard(props) {
         <div className='p-[1%]'>
             
 
-            <Card className="m-[2%] w-96 border-2 p-2 border-gray-300 shadow-lg" key={props.key}>
+            <Card className="m-[2%] w-96 border-2 p-2 border-gray-300 shadow-lg animate__bounce" key={props.key}>
                 <CardHeader shadow={false} floated={false} className="h-96">
                     <img
                         src={props.img}

@@ -21,12 +21,12 @@ const Cardprops = ({ img, proName, price, title, key }) => {
 
     return (
         <>
-        <h1 className='text-4xl font-bold pl-[4%]'>Products </h1>
-        <div className='p-[2%] flex flex-row flex-wrap justify-between '>
+        <h1 className='text-4xl font-bold pl-[4%] animate__bounce'>Products </h1>
+        <div className='p-[2%] flex flex-row flex-wrap justify-between animate__bounce'>
             {data.map((products, index) => {
                 console.log(products);
                 return (
-                    <div className=''>
+                    <div className='animate__bounce'>
                         <EcommerceCard key={products.id} img={products.image} proName={products.title} price={`Rs/${products.price}`} title={products.description} />
                     </div>
                 )
