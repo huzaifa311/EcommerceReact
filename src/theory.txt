@@ -1,0 +1,50 @@
+Components lifecycle{
+
+    mount  {useeffect mein empty dependency array}
+
+    mounting  {
+        dependency array mein s function ka name de do
+        /
+        dependency arr hi gayab kr do
+    }
+
+    unmount  {return k badd de do}
+}
+
+assignment {
+    navbar Componentsslider
+    heading
+    after heading 20 products in api
+    fully responsive
+    use fakestoreapi.com
+}
+
+firebase deploy{
+    create project
+    enter your project name
+    google analytics ko band kra
+    firebase login cmd mein check kro login hai ya nhi
+    agr firebase intall hi nhi hai to cmd chalao "mpm i --g firebase tool"
+    web app banao project ban jane k badd
+    web app banane k badd name de kr continue to console
+
+    firebase init
+    areyouready? y
+    hosting pehli wali select kr bsdk without github action wala
+    use an existing projectapna firebase project name select kr
+    public directory ko  build se change kr
+    index.html y
+    setup autobuild no
+    npm run build
+    firebase deploy
+
+
+    change deploy krne k lye cmd mein ye chalao{
+        npm run build
+        firebase deploy
+    }
+
+    firebase logout k lye cmd chalo{
+        firebase logout
+    }
+}
