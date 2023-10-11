@@ -8,10 +8,10 @@ import freeDel from '../images/freeDel.jpg'
 
 function MyCarousel() {
     return (
-        <Carousel className='mt-24 mx-4 text-black'>
-            <Carousel.Item>
+        <Carousel className='mt-28 mx-4'>
+            <Carousel.Item >
                 <img
-                    className="d-block w-100 h-96"
+                    className="d-block w-100 h-[400px]"
                     src={online}
                     alt="First slide"
                 />
@@ -22,7 +22,7 @@ function MyCarousel() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100 h-96"
+                    className="d-block w-100 h-[400px]"
                     src={sellit}
                     alt="Second slide"
                 />
@@ -33,7 +33,7 @@ function MyCarousel() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100 h-96"
+                    className="d-block w-100 h-[400px]"
                     src={freeDel}
                     alt="Third slide"
                 />
