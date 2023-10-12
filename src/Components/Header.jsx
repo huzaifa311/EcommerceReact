@@ -29,7 +29,7 @@ const Header = () => {
                 {
                     Links.map((link , index) => (
                     <li className='md:ml-8 md:my-0 my-7 font-semibold' key={index}>
-                        <a href={link.link} className='text-gray-800 hover:text-blue-400 duration-500'>{link.name}</a>
+                        <p /* href={link.link} */ className='text-gray-800 hover:text-blue-400 cursor-pointer duration-500'>{link.name}</p>
                     </li>))
                 }
                 <button className='btn bg-blue-600 text-white md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static'>Get Started</button>
